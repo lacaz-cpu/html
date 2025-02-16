@@ -1,0 +1,11 @@
+table ,th ,td { border : 1px solidblack; 
+}
+.est { 
+	background−color : lightgreen; 
+}
+.ouest { 
+	background−color : lightblue; 
+}
+.nord { 
+	background−color : lightpink; 
+}
