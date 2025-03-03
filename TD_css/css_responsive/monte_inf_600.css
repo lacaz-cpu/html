@@ -1,0 +1,35 @@
+@media only screen and (max-width:600px){
+    
+}
+
+h1{
+    background-color: darkblue;
+    color:white;
+    font-size: large;
+}
+
+h2{
+    color: black;
+    font-size: medium;
+}
+
+article{
+    background-color: lightblue;
+    font-size: small;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.fluo{
+    font-style:italic;
+}
+
+img{
+    display: none;
+}
+
+footer{
+    display: none;
+}

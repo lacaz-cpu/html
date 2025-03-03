@@ -1,3 +1,6 @@
+@media only screen and (min-width:600px){
+    
+}
 article{
     background-color: #e2c5a6;
     padding: 1em;
@@ -24,7 +27,7 @@ strong{
 
 }
 
-span{
+.fluo{
     background-color: #4dc8b9;
 }
 img{

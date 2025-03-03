@@ -1,0 +1,27 @@
+@media print {
+ }
+
+ body{
+     background-color: white;
+}
+
+ h1{
+    font-size: small;
+    font-style: monospace;
+    color: black;
+ }
+ p{
+    font-size: small;
+    font-style: monospace;
+    color: black;
+ }
+ strong{
+     font-style: normal;
+ }
+ img{
+     display: none;
+ }
+
+ footer{
+     display: none;
+ }
