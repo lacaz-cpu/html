@@ -1,0 +1,38 @@
+article{
+    background-color: #e2c5a6;
+    padding: 1em;
+    border-style: solid;
+    border-width: 0.15em;
+    border-color :#184F79;
+}
+
+h1{
+    text-align: center;
+}
+
+q{
+    color: #1d8791;
+}
+
+h2{
+    color: #184F79;
+}
+
+strong{
+    font-size: larger;
+    color: #184F79;
+
+}
+
+span{
+    background-color: #4dc8b9;
+}
+img{
+    float:right;
+    width: 150px;
+}
+footer{
+    font-size: x-small;
+    text-align: right;
+    color:#e5b8bb;
+}
