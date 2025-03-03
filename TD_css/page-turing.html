@@ -1,6 +1,59 @@
 <html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body>
-    <div>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style tyle="text/css">
+ .link{background-color: black;
+  position : static;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-left: 200px;
+}
+
+.contribe{
+  background-color: 02008d;
+  position: static;
+  border-radius: 10px;
+  width: 200px;
+  margin-right: 300px;
+}
+a{
+  background-color: black;
+  color : white;
+  text-decoration: none;
+}
+
+ h1{
+   color : white;
+   background-color: 01008a;
+ }
+ h2{
+   color: black;
+ }
+ .centre{
+   background-color: add9e6;
+   margin:5px;
+   width: auto;
+   height: auto;
+ }
+ p{
+   color: 131f94;
+ }
+ body{
+   display: flex;
+   flex-direction: row;
+ }
+ h4{
+   text-align: center;
+   color : white;
+ }
+ .pad{
+  color: white;
+  padding-left: 20px;
+ }
+</style>
+</head>
+<body>
+    <div class = "link">
       <nav>
         <p>
           <a href="#">Accueil</a>
@@ -17,14 +70,14 @@
       </nav>
     </div>
     
-    <div>
+    <div class = "centre">
       
       <h1>La Vie d'Alan Turing</h1>
       
       <section>
         <h2>Qui était Alan Turing ?</h2>
 
-        <img src="page-turing_fichiers/alan-turing.html" alt="Photo d'Alan Turing" width="200px">
+        <img src="./page-turing_fichiers/alan-turing.jpeg" alt="Photo d'Alan Turing" width="200px">
         <p>
           Alan Turing (1912-1954) était un mathématicien, logicien et 
 cryptanalyste britannique, considéré comme l'un des pères fondateurs de 
@@ -77,17 +130,17 @@ réhabilitation posthume a permis de corriger cette erreur historique.
     
     <div>
       <div>
-        <div>
-          <h4>         Contributions </h4>
-          <ul>
+        <div class = "contribe">
+          <h4>Contributions </h4>
+          <ul class = "pad">
             <li>Machine de Turing  </li>
             <li>Test de Turing  </li>
             <li>Cryptanalyse Enigma  </li>
           </ul>
         </div>
-        <div>
+        <div class = "contribe">
           <h4> Biagraphie courte</h4>
-          <ul>
+          <ul class = "pad">
             <li> 1912 : Naissance  à Londres  </li>
             <li> 1938 : Cryptanalyste à Bletchley Park   </li>
             <li> 1945-47 :  National Physical Laboratory  </li>
